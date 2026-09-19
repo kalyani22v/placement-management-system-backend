@@ -1,5 +1,12 @@
 # Smart Campus Placement Management System
 
+##  Live Demo
+
+**Swagger API Documentation:**
+https://campus-placement-eligibility-management.onrender.com/swagger-ui/index.html#/
+
+> **Note:** The live demo is deployed on Render and may take a few seconds to wake up if the service is inactive.
+
 ## Overview
 
 Smart Campus Placement Management System is a Spring Boot based web application designed to automate and simplify the campus placement process. The system manages student records, company recruitment criteria, and eligibility mapping between students and companies.
@@ -165,8 +172,6 @@ PUT /campus/updatestd/{email}
 GET /campus/std/{id}
 ```
 
----
-
 ### Company APIs
 
 #### Add Company
@@ -261,13 +266,20 @@ http://localhost:8080
 
 ## Swagger Documentation
 
-Access Swagger UI:
+Access Swagger UI locally:
 
 ```text
 http://localhost:8080/swagger-ui/index.html
 ```
 
+### Live Swagger
+
+```text
+https://campus-placement-eligibility-management.onrender.com/swagger-ui/index.html#/
+```
+
 ---
-<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/56b16af9-e9a4-4389-948a-4d5210a25323" />
 
+## Project Screenshot
 
+<img width="1366" height="728" alt="Smart Campus Placement Management System" src="https://github.com/user-attachments/assets/56b16af9-e9a4-4389-948a-4d5210a25323" />
