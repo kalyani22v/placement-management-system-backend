@@ -162,7 +162,6 @@ public class SmartCampusServiceImpl implements SmartCampusService {
 
 		return msg;
 	}
-	@Transactional(readOnly = true)
 	public String deleteCompany(String name) {
 
 		Company comp = companyrepo.findByName(name);
